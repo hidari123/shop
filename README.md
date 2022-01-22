@@ -230,7 +230,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
           <!-- props 用来指定配置对象 expandTrigger: 触发方式 value(id) label(显示的文字) children(下层元素) -->
           <!-- v-model 双向绑定keys -->
           <el-cascader
-            v-model="selectdKeys"
+            v-model="selectedKeys"
             :options="parentCateList"
             :props="{
               expandTrigger: 'hover',

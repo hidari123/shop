@@ -6,7 +6,10 @@ import './plugins/element.js'
 import './assets/css/global.css'
 // 导入axios
 import axios from 'axios'
+// 导入table插件
+import ZkTable from 'vue-table-with-tree-grid'
 
+Vue.use(ZkTable)
 Vue.config.productionTip = false
 // 配置请求的根路径
 axios.defaults.baseURL = 'https://lianghj.top:8888/api/private/v1/'
